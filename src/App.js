@@ -202,7 +202,7 @@ function Pipeline({ clients, sessions, onSelectClient, onUpdateClient, onDeleteC
               </div>
               <div className="field">
                 <label>Due date</label>
-                <input type="date" value={actionForm.next_action_date} onChange={e => setActionForm(f => ({ ...f, next_action_date: e.target.value })} />
+                <input type="date" value={actionForm.next_action_date} onChange={e => setActionForm(f => ({ ...f, next_action_date: e.target.value }))} />
               </div>
             </div>
 
